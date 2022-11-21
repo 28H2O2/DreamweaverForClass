@@ -1,0 +1,56 @@
+@charset "UTF-8";
+h1 {
+	font-family: "黑体";
+	color: #9C3;
+}
+body {
+	background-color: #E0F0E4;
+	margin-right: 15%;
+	margin-left: 15%;
+	font-family: "仿宋";
+
+}
+p {
+	font-size: 14px;
+	color: #666;
+	line-height: 120%;
+}
+.mytable {
+    font-family: "楷体";
+    text-align: center;
+    border: 5px solid #00f;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+.mytable th {
+    border-bottom: 4px dashed #a00;
+    color: #FFFF00;
+    font-family: "隶书";
+    font-size: 24px;
+    background-image: url(bg_header.jpg);
+    height: 25px;
+}
+.mytable td {
+    height: 25px;
+    border-top: 1px dashed #c2bdbd;
+}
+.mytable tr:nth-child(odd) {
+    background-color: #92C3E9;
+}
+.mytable tr:nth-child(even) {
+}
+.blackwhite {
+    border-collapse: collapse;
+}
+.blackwhite tbody tr {
+    width: 30px;
+    height: 50px;
+}
+
+.blackwhite tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+.blackwhite tr:nth-child(even)  {
+    background-color: #000000;
+}

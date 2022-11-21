@@ -1,0 +1,74 @@
+@charset "UTF-8";
+h1 {
+	font-family: "黑体";
+	color: #9C3;
+}
+body {
+	background-color: #E0F0E4;
+	margin-right: 15%;
+	margin-left: 15%;
+	font-family: "仿宋";
+
+}
+p {
+	font-size: 14px;
+	color: #666;
+	line-height: 120%;
+}
+.tablestyle {
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid #0000FF;
+	font-family: "楷体";
+	font-size: 15px;
+	background-color: #FFFFFF;
+	text-align: center;
+	vertical-align: top;
+}
+.tablestyle s {
+    color: #848484;
+}
+.delete {
+    color: #898989;
+    text-decoration: line-through;
+}
+.tablestyle img {
+    width: 60px;
+    height: 25px;
+}
+
+
+
+.tablestyle tr:nth-child(odd)  {
+	background-color: #AEE;
+}
+
+
+.tablestyle th {
+	background-image: url(bg_header.jpg);
+	font-family: "隶书";
+	color: #FFFF00;
+	font-size: 24px;
+	border-bottom: 4px dashed #AA0000;
+	height: 40px;
+}
+.chess {
+	width: 400px;
+	height: 400px;
+	background-color: #FFFFFF;
+}
+.black {
+	background-color: #000000;
+}
+
+
+.tablestyle td {
+	height: 25px;
+	border: 1px dashed #C2BDBD;
+}
+.brand {
+    color: #a00;
+    background-color: #E7E7BD;
+    font-family: "华文新魏";
+    font-size: 25px;
+}

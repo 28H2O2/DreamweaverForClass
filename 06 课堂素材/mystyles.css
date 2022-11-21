@@ -1,0 +1,122 @@
+@charset "utf-8";
+body {
+	background-color: #781;
+	margin-top: 0px;
+
+}
+#container {
+	width: 800px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/com_background.jpg);
+	position: relative;
+}
+#logo {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 120px;
+    background-image: url(images/phones.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: #566C47;
+    left: 0px;
+}
+#maintain h2 {
+    font-family: "楷体";
+}
+#service h2 {
+    color: #860002;
+    text-decoration: underline;
+}
+#service ul {
+    font-family: "华文中宋";
+    line-height: 1.5em;
+    list-style-type: decimal-leading-zero;
+}
+#maintain a:hover {
+    text-decoration: none;
+    font-size: 150%;
+}
+#service a:hover {
+    text-decoration: underline;
+    font-size: 150%;
+    color: #D50003;
+    font-style: oblique;
+}
+#intro a {
+    color: #FFFFFF;
+}
+#intro .link1 a:hover {
+    color: #FF0004;
+    text-decoration: none;
+    font-family: "楷体";
+}
+#intro .link2 a:hover {
+    color: #FFFF00;
+    text-decoration: line-through;
+    font-family: "华文琥珀";
+}
+
+
+
+
+
+
+
+
+#logo img {
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+#intro {
+    position: absolute;
+    left: 105px;
+    top: 158px;
+    width: 563px;
+    height: 89px;
+    background-color: #025A8C;
+    color: #FFFFFF;
+    font-family: "隶书";
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    -webkit-box-shadow: 5px 5px 5px #000000;
+    border-radius: 10px/10px;
+    box-shadow: 5px 5px 5px #000000;
+    text-shadow: 0px 0px;
+    text-align: justify;
+    z-index: 10;
+}
+#maintain {
+	position: absolute;
+	left: 75px;
+	top: 336px;
+	width: 311px;
+	height: 274px;
+	border-top: 5px solid #AA0000;
+	border-left: 5px solid #AA0000;
+	overflow-y: scroll;
+}
+#service {
+    position: absolute;
+    left: 477px;
+    top: 224px;
+    width: 241px;
+    height: 271px;
+    border-right: 5px solid #AA0000;
+    border-bottom: 5px solid #AA0000;
+    z-index: 17;
+}
+.content {
+	background-color: #FFFFFF;
+	font-family: "仿宋";
+	padding-left: 15px;
+	padding-right: 15px;
+}

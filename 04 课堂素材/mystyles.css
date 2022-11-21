@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9AFFF7;
+    font-family: "仿宋";
+    font-size: 24px;
+    text-align: justify;
+}
+.title1 {
+	color: #0000FF;
+	font-family: "隶书";
+	text-align: center;
+	font-size: 36px;
+}
+.title2 {
+	color: #AA0000;
+	font-family: "华文新魏";
+	font-size: 30px;
+}
+.intro {
+    margin-left: 3cm;
+    margin-right: 3cm;
+    font-family: "华文行楷";
+    font-size: 18px;
+    line-height: 1.5em;
+    border-top: 4px double #00AA00;
+    border-bottom: 4px double #00AA00;
+    text-indent: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-image: -webkit-linear-gradient(1deg,rgba(255,255,255,1.00) 0%,rgba(223,214,109,1.00) 50.36%,rgba(116,94,193,1.00) 100%);
+    background-image: -moz-linear-gradient(1deg,rgba(255,255,255,1.00) 0%,rgba(223,214,109,1.00) 50.36%,rgba(116,94,193,1.00) 100%);
+    background-image: -o-linear-gradient(1deg,rgba(255,255,255,1.00) 0%,rgba(223,214,109,1.00) 50.36%,rgba(116,94,193,1.00) 100%);
+    background-image: linear-gradient(89deg,rgba(255,255,255,1.00) 0%,rgba(223,214,109,1.00) 50.36%,rgba(116,94,193,1.00) 100%);
+}
+.odd {
+	background-color: #ABABF0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-indent: 2em;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	line-height: 1.4em;
+}
+.even {
+	background-color: #DEDBA0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-indent: 2em;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	line-height: 1.4em;
+}
+.intro a:hover {
+	color: #0000FF;
+	font-family: "华文隶书";
+	font-size: 20px;
+	text-decoration: underline;
+}
+a {
+	font-family: "方正舒体";
+	color: #FF0000;
+	text-decoration: none;
+}
+#xld {
+    font-family: "华文琥珀";
+    background-color: #39FCE5;
+}
+#dld {
+    font-family: "华文中宋";
+    background-color: #F69E9F;
+}

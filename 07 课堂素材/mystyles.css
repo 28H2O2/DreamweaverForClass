@@ -1,0 +1,49 @@
+@charset "utf-8";
+#container {
+    width: 840px;
+    background-color: #C0BABA;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(images/container_bg.gif);
+    background-position: center 0%;
+    background-repeat: repeat-y;
+}
+#container #logo {
+    background-image: url(images/phones.jpg);
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #0C3D00;
+}
+#container #logo img {
+    margin-top: 30px;
+
+}
+#container #navi {
+    background-color: #1C8792;
+    height: 60px;
+}
+#container #maintain {
+    width: 560px;
+    height: 500px;
+    float: left;
+    min-width: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+#container #service {
+    width: 280px;
+    height: 400px;
+    float: left;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#container #footer {
+    background-color: #A8FFE6;
+    clear: both;
+    height: 60px;
+}
