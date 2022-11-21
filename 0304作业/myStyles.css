@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body {
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: #FFFFCC;
+    font-family: "仿宋";
+    font-size: 24px;
+    text-align: justify;
+}
+.title1 {
+    color: #0000FF;
+    font-family: "隶书";
+    font-size: 24px;
+    font-weight: 600;
+    font-variant: normal;
+    font-style: normal;
+}
+.title2 {
+    color: #660000;
+    font-family: "华文中宋";
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+.intro {
+    margin-left: 3cm;
+    margin-right: 3cm;
+    font-family: "楷体";
+    font-size: 16px;
+    line-height: 1cm;
+    border-top: 4px dotted #0000FF;
+    border-bottom: 4px dotted #0000FF;
+    text-indent: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #FF0000;
+    border-right-style: none;
+    border-left-style: none;
+    border-right-color: #0000FF;
+    border-left-color: #0000FF;
+    background-color: #EEEEEE;
+}
+.odd {
+    background-color: #CCFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 2em;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    color: #993300;
+    font-family: "华文新魏";
+    font-size: 20px;
+}
+.ol1 {
+    color: #990066;
+    font-family: "方正舒体";
+    font-size: 24px;
+    line-height: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-right-style: double;
+    border-right-color: #0000FF;
+    border-left-style: double;
+    border-left-color: #0000FF;
+}
+.ol2 {
+    color: #3366FF;
+    font-family: "方正姚体";
+    font-size: 18px;
+    line-height: 1cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    border-right-style: double;
+    border-right-color: #666666;
+    border-bottom-style: double;
+    border-bottom-color: #666666;
+}
+.last  {
+    color: #993300;
+    font-family: "华文新魏";
+    font-size: 20px;
+    line-height: 1cm;
+    text-align: center;
+}
+
+
+
+.even {
+    background-color: #EEEEEE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-indent: 2em;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+    color: #993300;
+    font-family: "华文新魏";
+    font-size: 20px;
+}
+.intro a:hover {
+	color: #0000FF;
+	font-family: "华文隶书";
+	font-size: 20px;
+	text-decoration: underline;
+}
+a:link {
+    font-family: "隶书";
+    color: #0000FF;
+    text-decoration: none;
+    font-size: 24px;
+}
+a:visited {
+    color: #00FF00;
+    font-family: "隶书";
+    font-size: 24px;
+}
+a:active {
+    color: #FF0000;
+    font-family: "隶书";
+    font-size: 24px;
+}
+
+
+#xld {
+    font-family: "华文琥珀";
+    background-color: #39FCE5;
+}
+#dld {
+    font-family: "华文中宋";
+    background-color: #F69E9F;
+}

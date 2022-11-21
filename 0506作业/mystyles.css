@@ -1,0 +1,82 @@
+@charset "utf-8";
+#container {
+    background-color: #CCFFFF;
+    position: relative;
+    left: 300px;
+    top: 310px;
+    text-align: center;
+    z-index: 5;
+}
+p {
+    color: #0000FF;
+    line-height: 1.5em;
+}
+
+body  {
+    background-color: #CCFFFF;
+}
+div {
+
+}
+
+h1 {
+    color: #993300;
+    font-variant: normal;
+    font-weight: bold;
+    font-family: "华文仿宋";
+}
+.copyright {
+    position: absolute;
+    left: 537px;
+    top: 715px;
+    font-family: "楷体";
+    font-size: 18px;
+    color: #666666;
+    width: 330px;
+}
+.img1  {
+    position: absolute;
+    left: 367px;
+    top: 56px;
+    z-index: 10;
+}
+.img2 {
+    position: absolute;
+    left: 219px;
+    top: 22px;
+    z-index: 0;
+}
+.img3  {
+    position: absolute;
+    left: 1390px;
+    top: 28px;
+    height: 691px;
+}
+.img4  {
+    position: absolute;
+    left: 1504px;
+    top: 533px;
+}
+.img5 {
+    position: absolute;
+    left: 1497px;
+    top: 473px;
+}
+.img6 {
+    position: absolute;
+    left: 1505px;
+    top: 604px;
+}
+.img7 {
+    position: absolute;
+    left: 1490px;
+    top: 405px;
+}
+.img8 {
+    position: absolute;
+    left: 867px;
+    top: 280px;
+}
+.img9 {
+    position: absolute;
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+body {
+    background-color: #ffc;
+    margin-top: 0px;
+}
+#container {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 0px;
+    margin-top: 0px;
+    padding: 0;
+}
+#container #footer {
+    background-color: #ccc;
+    width: 800px;
+    height: 30px;
+    clear: both;
+}
+#leftcolumn ul li a:link {
+    font-family: "华文新魏";
+    font-size: 24px;
+    color: #60f;
+    text-decoration: none;
+}
+#leftcolumn ul li a:hover {
+    font-family: "华文新魏";
+    color: #f00;
+    text-decoration: underline;
+}
+#container ul li a:visited {
+    color: #9f9;
+    font-family: "华文新魏";
+    text-decoration: none;
+}
+
+#container #contain h2 {
+    color: #00f;
+    font-family: "华文新魏";
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#container #contain p {
+    color: #933;
+    font-size: 18px;
+    font-family: "仿宋";
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#container #footer {
+    color: #63c;
+    font-family: "方正姚体";
+    font-size: 24px;
+    text-align: center;
+}
+#navi li {
+    float: right;
+}
+
+
+
+
+#leftcolumn ul li a:active  {
+    color: #99FF99;
+    font-family: "华文新魏";
+    text-decoration: none;
+}
+
+
+ul li {
+    line-height: 2em;
+    padding-left: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+#title {
+    width: 800px;
+    height: 80px;
+}
+#container #title #img1 {
+    height: 80px;
+    width: 700px;
+}
+#container #title #img2 {
+    height: 80px;
+    width: 100px;
+}
+#container #leftcolumn  {
+    background-color: #fc6;
+    width: 160px;
+    height: 1200px;
+    float: left;
+}
+#container #navi {
+    width: 640px;
+    height: 30px;
+    float: right;
+    background-color: #9c3;
+}
+#container #contain {
+    background-color: #fff;
+    width: 640px;
+    float: right;
+    height: 1170px;
+}
+#container #navi a:link {
+    font-family: "华文楷体";
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#container #navi a:hover {
+    color: #f00;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: "华文楷体";
+}

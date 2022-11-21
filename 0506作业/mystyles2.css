@@ -1,0 +1,65 @@
+@charset "utf-8";
+body {
+    background-color: #f0f0f0;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+h1 {
+    color: #330000;
+    font-family: "宋体";
+    font-size: 36px;
+    font-weight: bold;
+}
+#intro {
+    color: #990000;
+    font-family: "楷体";
+    font-size: 24px;
+}
+#copyright {
+    color: #343434;
+    font-size: 14px;
+}
+body h2 {
+    font-family: "华文行楷";
+    font-size: 30px;
+}
+.blue #copyright {
+    color: #1AFCFE;
+    font-family: "宋体";
+    font-size: 14px;
+}
+.tangshi {
+    background-color: #FFCCFF;
+    /* [disabled]position: absolute; */
+    left: 226px;
+    top: 250px;
+    width: 293px;
+    height: 25px;
+}
+.songshi {
+    background-color: #FFCC99;
+    height: 25px;
+}
+.songci {
+    background-color: #99FFCC;
+}
+.tangwudaici {
+    background-color: #99CCFF;
+}
+h3 {
+}
+.tangshi ul {
+    font-family: "方正姚体";
+}
+body ul {
+    font-family: "方正姚体";
+}
+
+
+.tangshi span a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+.tangshi span a {
+    text-decoration: none;
+}
